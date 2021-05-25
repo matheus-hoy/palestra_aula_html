@@ -9,7 +9,6 @@ body{
 .container{
     max-width: 1000px;
     margin: auto;
-
 }
 
 header{
@@ -23,13 +22,14 @@ header{
 .title{
     font-size: 26px;
 }
+
 section{
     padding: 20px;
-    background-image: url(../PROJETO_PG/images/people.jpg);
     background-size: cover;
     overflow: hidden;
-    
+    background-image: url(./images/people.jpg)
 }
+
 .formContainer{
     max-width: 230px;
     background-color: #FFFFFFBB;
@@ -63,7 +63,7 @@ select{
     -webkit-appearance: none;
     appearance: none;
 
-    background-image: url(../PROJETO_PG/images/arrow.jpg);
+    background-image: url(./images/arrow.jpg);
     background-repeat: no-repeat;
 
     background-position: calc(100% - 10px) center;
